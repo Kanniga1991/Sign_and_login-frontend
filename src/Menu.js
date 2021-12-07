@@ -16,7 +16,7 @@ const Menu = () => {
 				pwd,
 			});
 			if (apidata.data.code) {
-				// window.localStorage.setItem("app_token", apidata.data.token);
+				
 				history.push("/home");
 			} else {
 				alert(apidata.data.message);
