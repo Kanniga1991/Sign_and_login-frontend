@@ -16,7 +16,7 @@ function Signin() {
 				pwd,
 			});
 			if (api.data.code) {
-				// window.localStorage.setItem("app_token", api.data.token);
+				
 				history.push("/home");
 			} else {
 				alert(api.data.message);
